@@ -56,7 +56,7 @@ Num_Recycles: 12
 Rm_aa = ""
 mpnn_sampling_temp: 0.1
 
-W
+
 References:
 
 Schreiber, Amelie. Protein Binding Partners with ESM2. Hugging Face Blog.
