@@ -8,13 +8,21 @@ Jupyter Notebook
 Libraries: numpy, pandas, matplotlib, scipy, sklearn
 Ensure all packages are installed before running the notebook.
 Sections in the Notebook
+
 Introduction: Outlines the project's objectives and significance.
+
 Data Import and Preprocessing: Steps to load, clean, and prepare data.
+
 Exploratory Data Analysis (EDA): Visual and statistical methods to gain insights.
+
 Signal Processing Techniques: Application of methods such as Fourier transforms and filtering.
+
 Machine Learning Models: Model implementation and performance evaluation.
+
 Results and Discussion: Analysis of outcomes and key findings.
+
 Conclusion: Summarizes results and discusses future directions.
+
 How to Run the Notebook
 Clone this repository or download the notebook file.
 Open it in Jupyter Notebook or JupyterLab.
@@ -27,8 +35,11 @@ After Running the Code 5 Different Times With Different inputs my Top 5 Protein 
 3. SLEEKIAALIAELEAQEVKTLIDLETKILCKEIRETYAAAIANTGAEAADALLKTYFRYLLRKGFWDALAAVRPAEAAALKAEVEAGLKVVEELAKLCGAVLVATKTAAGHTAALAAQNATFNAAKAELEKKMKEVAKLLAEALAALRALAERAGPAALAELDALVEELARLLSLEDLEKAIEEMRALVAARLAALAAEHDAAAAARLAADPAGNAEAVAADRAAFAAAAAAAKKAADEAAKLLKEGIKK - MLM Loss: 6.590275128682454
 4. EEIIKKQSELIDKIIKHLEDLKKKLEENFLKLLEKIEKLLYKKALKENPEVTKKMVEKMKKEYEKLLEEKKKKLEEIVKKTKEAIEKGDLEKAEEYVKKFMETIKESEKELLKLREKFLKEAKKLAKKLGLSETLVDLVKALSLKYETKLLILTIEKLIELFKELKSEKFKEKAFEYCKKLYELFSKILEKTLEEILKETKELIKKLGTSEEEQKELEELLKKVEKDIKEFKKKKEELEKEIKKLEKELK - MLM Loss: 6.61924934387207
 5. MEELEKELKKKLGEAWEIFKEGIEILLGDSEEAKVLKEEIDKVFKTKSFEEQIKYFTDYFVTVGGKVADQLVKEGKKALEALKKFLEGLKLLLEALLEYVKKTGKKSKELIKNTSRILEALKKLLKKLIEYIKELLKKGVSDENIEELKKVLEVLKLALEALKICLELIAEQLEKVSEVLKKALELAEEALKLVEEAEKLLEELLKEKSEEEKKKLYEKLKKVLKEIIKKIEELIKLTEELLKEIEKLLK - MLM Loss: 6.623129208882649
+
 The scores for my best protein were:  mpnn:1.057 plddt:0.900 ptm:0.822 pae:5.817 rmsd:2.620
+
 They were all from the same inputs and from the 4th run of this project.
+
 The inputs were:
 Name: EGFR
 Contigs: 250
@@ -45,8 +56,8 @@ Num_Recycles: 12
 Rm_aa = ""
 mpnn_sampling_temp: 0.1
 
+W
+References:
 
-
-
-
-Example of Expected Results
+Schreiber, Amelie. Protein Binding Partners with ESM2. Hugging Face Blog.
+Diffusion Model Reference: Concepts and methods taken from the diffusion.ipynb provided in the project files
